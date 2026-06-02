@@ -1,7 +1,6 @@
-//  Collecting Numbers
+//  Collecting Numbers II
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
 using ll = long long;
@@ -27,31 +26,7 @@ ll binpow(ll a, ll b, ll mod = MOD) {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int n,m;
-    cin >> n >> m;
-    vector <pair<ll, ll>> v(n);
-    for (ll i = 0; i < n; i++) {
-        ll x;
-        cin >> x;
-        v[i].first = x;
-        v[i].second = i;
-    }
-    sort(v.begin(), v.end());
-    while (m--) {
-        int a,b;
-        cin >> a >> b;
-        ll it = 0;
-        ll r = 1;
-        for (ll i = 0; i < n; i++) {
-            if (v[i].second < it) {
-                r ++;
-                it = v[i].second;
-            }
-            else if (v[i].second > it) {
-                it = v[i].second;
-            }
-        }
-        cout << (r) << endl;
-    }
+
+
     return 0;
 }
