@@ -29,6 +29,7 @@ add_executable(C_A_TRUE_Battle "Codeforces - Codeforces Round 979 Div 2/C_A_TRUE
 add_executable(C_Leftmost_Below "Codeforces - Codeforces Round 1039 Div 2/C_Leftmost_Below.cpp")
 add_executable(A_Shashliks "Codeforces - Codeforces Round 1031 Div 2/A_Shashliks.cpp")
 add_executable(B_Playing_in_a_Casino "Codeforces - Codeforces Round 861 Div 2/B_Playing_in_a_Casino.cpp")
-add_executable(A___Two_Arithmetic_Progressions "AtCoder - AtCoder Regular Contest 221/A___Two_Arithmetic_Progressions.cpp")
+add_executable(A___Two_Arithmetic_Progressions "AtCoder - AtCoder Regular Contest 221/A___Two_Arithmetic_Progressions.cpp"
+        "CodeChef - START240D/Points_Table.cpp")
 add_executable(B_Permutation_Printing "Codeforces - think-cell Round 1/B_Permutation_Printing.cpp")
 add_executable(Collecting_Numbers_II "CSES - CSES Problem Set/Collecting_Numbers_II.cpp")
