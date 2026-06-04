@@ -34,3 +34,6 @@ add_executable(A___Two_Arithmetic_Progressions "AtCoder - AtCoder Regular Contes
 add_executable(B_Permutation_Printing "Codeforces - think-cell Round 1/B_Permutation_Printing.cpp")
 add_executable(Collecting_Numbers_II "CSES - CSES Problem Set/Collecting_Numbers_II.cpp")
 add_executable(B_Digit_String "Codeforces - Educational Codeforces Round 190 Rated for Div 2/B_Digit_String.cpp")
+add_executable(No_3_Equal "CodeChef - START241/No_3_Equal.cpp")
+add_executable(C_Simple_Repetition "Codeforces - Codeforces Round 1016 Div 3/C_Simple_Repetition.cpp")
+add_executable(B1_The_Strict_Teacher_Easy_Version "Codeforces - Codeforces Round 972 Div 2/B1_The_Strict_Teacher_Easy_Version.cpp")
